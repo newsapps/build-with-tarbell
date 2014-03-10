@@ -7,8 +7,37 @@
   {% block css %}
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/reveal.min.css" />
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/theme/serif.css" />
-
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/theme/moon.css" />
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/theme/night.css" />
+  <style>
+    .reveal h1 {
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2)
+    }
+    .reveal .slide-dark h1,
+    .reveal .slide-dark h2,
+    .reveal .slide-dark h3,
+    .reveal .slide-dark h4,
+    .reveal .slide-dark h5,
+    .reveal .slide-dark h6 {
+      color: #000;
+    }
+    .reveal .slide-dark h1,
+    .reveal .slide-dark h2 {
+      text-shadow: 0px 2px 10px rgba(255, 255, 255, 0.4)
+    }
+    .reveal .text-left h1,
+    .reveal .text-left h2,
+    .reveal .text-left h3,
+    .reveal .text-left h4,
+    .reveal .text-left h5,
+    .reveal .text-left h6,
+    .reveal .text-left p { 
+      text-align: left;
+    }
+    hr { display: block; height: 1px;
+      border: 0; border-top: 1px solid #aaa;
+      margin: 1.5em 0; padding: 0; }
+  </style>
   {% endblock css %}
 
   {% block opengraph %} 
@@ -53,8 +82,8 @@
 <div class="reveal">
   <div class="slides">
     {% for slide in slides %}
-    <section{% if slide.background %} data-background="{{ slide.background }}"{% endif %}>
-      {{ read_file("slides/slide-{0:02d}.md".format(loop.index))|markdown }}
+    <section id="{{ slide.id }}"{% if slide.class %} class="{{ slide.class }}"{% endif %}{% if slide.background_url %} data-background="images/{{ slide.background_url }}"{% endif %}{% if slide.background_color %} data-background-color="{{ slide.background_color }}"{% endif %}{% if slide.background_repeat %} data-background-repeat="{{ slide.background_repeat }}"{% endif %}{% if slide.background_size %} data-background-size="{{ slide.background_size }}"{% endif %}>
+      {{ read_file("slides/{0}.md".format(slide.id))|markdown }}
     </section>
     {% endfor %}
   </div>
@@ -73,26 +102,23 @@
     controls: true,
     progress: true,
     history: true,
-    center: true,
+    /*center: true,*/
 
     /*theme: Reveal.getQueryHash().theme, // available themes are in /css/theme*/
     /*transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none*/
     transition: 'linear',
-    theme: 'serif',
-
+    theme: 'beige',
+    
     // Parallax scrolling
     // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
     // parallaxBackgroundSize: '2100px 900px',
 
     // Optional libraries used to extend on reveal.js
-    /*dependencies: [*/
-      /*{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },*/
-      /*{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },*/
-      /*{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },*/
-      /*{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },*/
-      /*{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },*/
-      /*{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }*/
-    /*]*/
+    dependencies: [
+      { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    ]
   });
 
 </script>
