@@ -5,9 +5,8 @@
   <link rel="shortcut icon" href="/favicon{% if preview_mode %}-preview{% endif %}.ico" />
 
   {% block css %}
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/reveal.min.css" />
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/theme/moon.css" />
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/ir_black.min.css" />
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/theme/night.css" />
   <style>
     .reveal h1 {
@@ -34,11 +33,23 @@
     .reveal .text-left p { 
       text-align: left;
     }
+    .reveal .slide-dark.label-background h1,
+    .reveal .slide-dark.label-background h2,
+    .reveal .slide-dark.label-background h3,
+    .reveal .slide-dark.label-background h4,
+    .reveal .slide-dark.label-background h5,
+    .reveal .slide-dark.label-background h6 {
+      background-color: rgba(250, 244, 230, 0.9);
+      padding-top: .25em;
+      padding-bottom: .25em;
+    }
     hr { display: block; height: 1px; border: 0; border-top: 1px solid #aaa; margin: .75em 0; padding: 0; }
     .reveal pre {
       margin: 0;
       width: auto;
-      font-size: .8em;
+      font-size: .68em;
+    }
+    .reveal .label-background {
     }
   </style>
   {% endblock css %}

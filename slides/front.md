@@ -2,9 +2,9 @@
 
 ### (Draft, work in progress)
 
-__Docs + info__: [http://tarbell.tribapps.com](http://tarbell.tribapps.com)
+Docs + info: [http://tarbell.tribapps.com](http://tarbell.tribapps.com)
 
-__Source__: [http://github.com/newsapps/flask-tarbell](http://github.com/newsapps/flask-tarbell)
+Source: [http://github.com/newsapps/flask-tarbell](http://github.com/newsapps/flask-tarbell)
 
 <hr/>
 

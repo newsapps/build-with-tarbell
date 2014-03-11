@@ -22,10 +22,6 @@ Which template would you like to use? [1] 1
 
 Initialized empty Git repository in /Users/davideads/tarbell/my-new-project/.git/
 
-Branch 0.9b5 set up to track remote branch 0.9b5 from origin.
-
-client_secrets found. Would you like to create a Google spreadsheet? [Y/n] y
-
 ...
 
 You got this!
