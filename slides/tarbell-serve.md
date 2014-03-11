@@ -1,6 +1,6 @@
 ## tarbell serve
 
-<pre><code>
+<pre><code class="bash" data-trim>
 $ cd ~/tarbell/my-new-project
 $ tarbell serve
 

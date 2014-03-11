@@ -4,7 +4,7 @@
 
 #### OS X
 
-<pre><code>
+<pre><code class="bash" data-trim>
 sudo easy_install pip
 sudo pip install tarbell==0.9b4
 </code></pre>
@@ -13,7 +13,7 @@ sudo pip install tarbell==0.9b4
 
 #### Ubuntu
 
-<pre><code>
+<pre><code class="bash" data-trim>
 sudo apt-get install python-pip
 sudo pip install tarbell==0.9b4
 </code></pre>

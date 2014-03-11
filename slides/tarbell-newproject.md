@@ -1,6 +1,6 @@
 ## tarbell newproject
 
-<pre><code>
+<pre><code class="text" data-trim>
 $ tarbell newproject
 
 What is the project's short directory name? (e.g. my_project) my-new-project
@@ -19,8 +19,6 @@ Pick a template
       https://github.com/eads/tarbell-map-template
 
 Which template would you like to use? [1] 1
-
-Initialized empty Git repository in /Users/davideads/tarbell/my-new-project/.git/
 
 ...
 

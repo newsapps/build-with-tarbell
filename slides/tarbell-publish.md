@@ -1,6 +1,6 @@
 ## tarbell publish
 
-<pre><code>
+<pre><code class="bash" data-trim>
 $ tarbell publish production
 
 Deploying Building websites with Tarbell to production (tarbell.tribapps.com/build-with-tarbell)

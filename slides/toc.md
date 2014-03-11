@@ -8,5 +8,7 @@
 
 #### [The Tarbell command line utility](#/tarbell-cli)
 
-#### [Creating a Tarbell project](#/tarbell-newproject)
+#### [Start a Tarbell project](#/tarbell-newproject)
+
+#### [Building your project](#/build-intro)
 

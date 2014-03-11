@@ -2,13 +2,13 @@
 
 <hr />
 
-<pre><code class="django">
+<pre><code class="django" data-trim>
 {% extends "_base.html" %}
 
 {% block content %}
 <div class="container">
   <h1>{{ headline }}</h1>
-  &lt;!-- Add your code --&gt;
+  <!-- Add your code -->
 </div>
 {% endblock content %}
 </code></pre>

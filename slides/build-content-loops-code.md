@@ -7,14 +7,11 @@
 <pre><code class="django" data-trim>
 {% extends "_base.html" %}
 
-{% block scripts %}
-<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/js/reveal.min.js"></script>
-<script>
-  Reveal.initialize({ controls: true, history: true })
-</script>
-{% endblock %}
-
 {% block content %}
-<!-- content -->
+  {% for journalist in journalists %}
+  <h1>{{ journalist.name }}</h1>
+  <img src="{{ journalist.image }}" />
+  <p><a href="{{ journalist.url }}">Wikipedia</a></p>
+  {% endfor %}
 {% endblock content %}
 </code></pre>

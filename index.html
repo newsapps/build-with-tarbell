@@ -6,7 +6,7 @@
 
   {% block css %}
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/reveal.min.css" />
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/ir_black.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/lib/css/zenburn.css" />
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6/css/theme/night.css" />
   <style>
     .reveal h1 {
@@ -33,6 +33,16 @@
     .reveal .text-left p { 
       text-align: left;
     }
+    .reveal .label-background h1,
+    .reveal .label-background h2,
+    .reveal .label-background h3,
+    .reveal .label-background h4,
+    .reveal .label-background h5,
+    .reveal .label-background h6 {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding-top: .25em;
+      padding-bottom: .25em;
+    }
     .reveal .slide-dark.label-background h1,
     .reveal .slide-dark.label-background h2,
     .reveal .slide-dark.label-background h3,
@@ -49,8 +59,13 @@
       width: auto;
       font-size: .68em;
     }
-    .reveal .label-background {
+    p.file {
+      font-size: 0.9em;
     }
+    p .file-name {
+      color: #5ad75a;
+    }
+    .reveal pre code { max-height: none; } 
   </style>
   {% endblock css %}
 

@@ -1,6 +1,6 @@
 ## tarbell configure
 
-<pre><code>
+<pre><code class="bash" data-trim>
 $ tarbell configure
 
 Configuring Tarbell. Press ctrl-c to bail out!
