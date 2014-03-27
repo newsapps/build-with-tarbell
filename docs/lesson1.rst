@@ -22,6 +22,15 @@ Goals
 Background
 **********
 
+Here are some resources to get you started with the basic skills you'll
+need to build a website:
+
+- `Codecademy Web Fundamentals <http://www.codecademy.com/tracks/web>`_
+- `Try Github <http://try.github.io>`_
+- `Mozilla Thimble <https://thimble.webmaker.org/en-US/>`_
+
+If you are already 
+
 *************
 Prerequisites
 *************
@@ -33,7 +42,7 @@ Prerequisites
 5. The `pip <http://www.pip-installer.org/en/latest/installing.html>`_ package manager
 6. `Git <http://git-scm.com/>`_ version control software
 7. An account at `GitHub.com <http://www.github.com>`_
-8. A `Google <http://google.com>`_ account and `client_secrets.json <http://tarbell.readthedocs.org/en/latest/install.html#configure-google-spreadsheet-access-optional>` file.
+8. A `Google <http://google.com>`_ account and `client_secrets.json <http://tarbell.readthedocs.org/en/latest/install.html#configure-google-spreadsheet-access-optional>`_ file.
 9. `Tarbell <http://tarbell.tribapps.com>`_ publishing software
 
 .. note::
