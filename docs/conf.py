@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Websites for Journalists'
+project = u'Build with Tarbell'
 copyright = u'%s, Chicago Tribune' % date.today().year
 
 # The version info for the project you're documenting, acts as replacement for
@@ -181,7 +181,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FirstNewsAppdoc'
+htmlhelp_basename = 'BuildWithTarbelldoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -201,8 +201,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'FirstNewsApp.tex', u'First News App Documentation',
-   u'Investigative Reporters and Editors', 'manual'),
+  ('index', 'BuildWithTarbell.tex', u'Build with Tarbell Tutorial',
+   u'Chicago Tribune', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -231,8 +231,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'firstnewsapp', u'First News App Documentation',
-     [u'Investigative Reporters and Editors'], 1)
+    ('index', 'buildwithtarbell', u'Build with Tarbell Tutorial',
+     [u'Chicago Tribune'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -245,8 +245,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'FirstNewsApp', u'First News App Documentation',
-   u'Investigative Reporters and Editors', 'FirstNewsApp', 'One line description of project.',
+  ('index', 'BuildWithTarbell', u'Build with Tarbell Tutorial',
+   u'Chicago Tribune', 'BuildWithTarbell', 'One line description of project.',
    'Miscellaneous'),
 ]
 
