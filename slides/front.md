@@ -2,9 +2,11 @@
 
 ### (Draft, work in progress)
 
-Docs + info: [http://tarbell.tribapps.com](http://tarbell.tribapps.com)
+Docs + info: [tarbell.tribapps.com](http://tarbell.tribapps.com)
 
-Source: [http://github.com/newsapps/flask-tarbell](http://github.com/newsapps/flask-tarbell)
+Tutorial: [build-with-tarbell.readthedocs.org](http://build-with-tarbell.readthedocs.org)
+
+Presentation source: [github.com/eads/build-with-tarbell](http://github.com/eads/build-with-tarbell)
 
 <hr/>
 
