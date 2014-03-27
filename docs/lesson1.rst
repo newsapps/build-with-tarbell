@@ -166,7 +166,7 @@ You'll need a Google account to manage the data and content on your site
 with Google spreadsheets. If you have a gmail address, you already have a Google
 account.
 
-You'll need to follow `this guide to downloading a client_secrets.json file <http://tarbell.readthedocs.org/en/latest/install.html#configure-google-spreadsheet-access-optional>`
+You'll need to follow `this guide to downloading a client_secrets.json file <http://tarbell.readthedocs.org/en/latest/install.html#configure-google-spreadsheet-access-optional>`_
 to your computer. This file acts like a password that allows Tarbell to communicate with Google spreadsheets.
 
 ---------------
