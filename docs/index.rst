@@ -6,7 +6,6 @@ Lessons
 =======
 
 .. toctree::
-   index
    lesson1
 
 About this tutorial
