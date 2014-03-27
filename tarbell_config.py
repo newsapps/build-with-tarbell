@@ -14,7 +14,7 @@ TITLE = "Building websites with Tarbell"
 SPREADSHEET_KEY = "0Ak3IIavLYTovdF9UOVlVaXlSV3FlUzlVci1YbmVYZnc"
 
 # Exclude these files from publication
-EXCLUDES = ["*.md", "requirements.txt"]
+EXCLUDES = ["*.md", "requirements.txt", "docs/*"]
 
 # Create JSON data at ./data.json, disabled by default
 # CREATE_JSON = True
