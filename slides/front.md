@@ -4,8 +4,6 @@
 
 Docs + info: [tarbell.tribapps.com](http://tarbell.tribapps.com)
 
-Tutorial: [build-with-tarbell.readthedocs.org](http://build-with-tarbell.readthedocs.org)
-
 Presentation source: [github.com/eads/build-with-tarbell](http://github.com/eads/build-with-tarbell)
 
 <hr/>
